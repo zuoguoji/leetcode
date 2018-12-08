@@ -12,7 +12,7 @@
     建一个map，把数组的值和索引进行映射， 然后遍历该map，看是否有目标值存在，
     如果有就把他的索引返回
 ##### Code
-```
+```golang
 func twoSum(sum []int, target int) []int {
 	index := make(map[int]int, len(sum))
 	for i, b := range sum {
